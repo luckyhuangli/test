@@ -1,0 +1,363 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body {
+	min-width: 320px;
+	/*max-width: 640px;*/
+	margin: 0px auto;
+	/*line-height: 1.5;*/
+	font-family: 'Microsoft YaHei',Arial, Helvetica, STHeiTi, sans-serif;
+	background: #F2F2F2;
+}
+
+html{
+	font-size :20px !important;
+	/*html的font-size可以等比改变所有用了rem单位的元素，*/
+}
+
+
+
+@media screen and (min-width:320px) {
+	html {
+		font-size: 20px !important
+	}
+}
+
+@media screen and (min-width:360px) {
+	html{
+		font-size: 22.5px !important
+	}
+	}
+}
+
+@media screen and (min-width:375px) {
+	html {
+		font-size: 23.5px !important
+	}
+}
+
+@media screen and (min-width:384px) {
+	html {
+		font-size: 24px !important
+	}
+}
+
+@media screen and (min-width:400px) {
+	html {
+		font-size: 25px !important
+	}
+}
+
+@media screen and (min-width:414px) {
+	html {
+		font-size: 25.875px !important
+	}
+}
+
+@media screen and (min-width:424px) {
+	html {
+		font-size: 26.5px !important
+	}
+}
+
+@media screen and (min-width:480px) {
+	html {
+		font-size: 30px !important
+	}
+}
+
+@media screen and (min-width:540px) {
+	html {
+		font-size: 33.75px !important
+	}
+}
+
+@media screen and (min-width:720px) {
+	html {
+		font-size: 45px !important
+	}
+}
+
+@media screen and (min-width:749px) {
+	html {
+		font-size: 46.8125px !important
+	}
+}
+
+#header{
+	background-color: rgb(239,88,79);
+	width: 16rem;
+	margin: 0 auto;
+	height: 2.5rem;
+}
+ .logo img{
+	float: left;
+	margin-top: 0.5rem;
+	margin-left: 0.45rem;
+	width: 
+	
+	
+}
+.search{
+    border-radius: 0.5rem;
+	background-color: #FFF;
+	width: 9.75rem;
+	height: 1.15rem;
+	float: left;
+	margin-top: 0.5rem;
+	margin-left: 0.5rem;
+}
+.search img{
+
+	margin-left: 0.3rem;
+}
+.search #input{
+	height: 0.8rem;
+	width: 6rem;
+	position: absolute;
+	top: 0.6rem;
+	border: 0;
+	/*margin-left: 0.5rem;
+	padding-top: 0.5rem;
+	padding-bottom: -0.3rem;*/
+	
+
+
+	
+}
+.xiaoX img{
+	margin-top: 0.5rem;
+	margin-left: 0.4rem;
+}
+
+#banner{
+	text-align: center;
+}
+#content{
+	background-color: #FFF;
+	width: 16rem;
+	height: 58.5rem;
+	margin: 0 auto;
+	margin-top: -0.2rem;
+}
+#content .circle ul li {
+	width: 2.4rem;
+	height:2rem; 
+	list-style: none;
+	display: inline-block;
+	margin: 0.5rem 0.65rem 0rem 0.65rem;
+}
+#content .circle ul li a {
+	text-decoration: none;
+	color: black;
+}
+#content .circle ul li a img{
+	width: 2rem;
+	text-align: center;
+}
+#content .circle ul li a p{
+	font-size: 0.5rem;
+	text-align: center;
+}
+
+
+
+#content .gray{
+	background-color: rgb(243,243,243);
+	height: 0.5rem;
+
+
+}
+#content .new{
+
+	margin-top: 1rem;
+	height: 2rem;
+
+}
+#content .new img{
+	width: 2.25rem;
+	height: 1rem;
+	
+	margin-left: 0.5rem;
+}
+
+#content .new a{
+    text-decoration: none;
+    color: black;
+    font-size: 0.5rem;
+	
+}
+
+.homeEat{
+	width: 16rem;
+	height: 7.5rem;
+	background-color: rgb(243,243,243);
+}
+.homeEat .ZFW{
+	height: 1.5rem;
+	font-size: 0.5rem;
+	
+	margin-left: 0.75rem;
+}
+.homeEat .ZFW img{
+	width: 0.8rem;
+	height: 0.51rem;
+	margin-top: 0.5rem;
+	}
+.homep1{
+	height: 5.5rem;
+	width: 8rem;
+	float: left;
+}
+.home2,.home3{
+	height: 2.7rem;
+	width: 7.9rem;
+	margin-left: 0.1rem;
+}
+.home3{
+	margin-top: -0.2rem;
+}
+.index76{
+	width: 16rem;
+	height: 5rem;
+}
+.index7674 img{
+	width: 16rem;
+	height: 5rem;
+	margin-bottom: -0.3rem;
+}
+.store{
+	background-color: rgb(243,243,243);
+	width: 16rem;
+	height: 12.5rem;
+}
+.store .FBH{
+	height: 1.5rem;
+	font-size: 0.5rem;
+	
+	margin-left: 0.75rem;
+}
+.store .FBH img{
+	width: 0.8rem;
+	height: 0.6rem;
+	margin-top: 0.5rem;
+	}
+.square img{
+	width: 3.9rem;
+	height: 5rem;
+	margin-right: -0.2rem;
+}
+.goods{
+	width: 16rem;
+	height: 10.8rem;
+	background-color: rgb(243,243,243);
+}
+.goods .JPTJ{
+	height: 1.5rem;
+	font-size: 0.5rem;
+    margin-left: 0.75rem;
+    margin-top: -0.5rem;
+}
+.goods .JPTJ img{
+	width: 0.8rem;
+	height: 0.41rem;
+	margin-top: 0.5rem;
+	}
+.goods .index_9295{
+    margin-top: 0.1rem;
+    width: 16rem;
+	height: 4.5rem;
+	background-color: white;
+
+}
+.goods .index_9295 img{
+	margin-top: 0.5rem;
+	margin-left: 0.5rem;
+	width: 3.5rem;
+	height: 3.5rem;
+	float: left;
+
+} 
+
+.goods .index_9295 h6{
+	padding: 0.5rem 0rem 0.2rem 4.5rem;
+	
+   font-size: 0.7rem;
+
+
+}
+.goods .index_9295 p{
+	font-size: 0.5rem;
+	padding: 0rem 0rem 0.7rem 4.5rem;
+	
+}
+.goods .index_9295 p .one{
+	color: red;
+	font-size: 0.7rem;
+}
+.goods .index_9295 p .two{
+	margin-left: 3.8rem;
+}
+
+#footer{
+	background-color: white;
+	height: 2rem;
+	width: 16rem;
+	margin: 0 auto;
+
+}
+#footer ul li {
+	 width: 2rem;
+	height:2rem;
+	list-style: none;
+	display: inline-block;
+	margin: 0rem 0.4rem 0rem 1.3rem;
+}
+#footer  ul li a{
+	
+	text-decoration: none;
+	color: black;
+}
+#footer  ul li a .h{
+	width: 1rem;
+	height: 1rem;
+	background: url(images/home.png) no-repeat;
+	background-size: 100%;
+}
+#footer  ul li a .order{
+	width: 1rem;
+	height: 1rem;
+	background: url(images/order.png) no-repeat;
+	background-size: 100%;
+}
+#footer  ul li a .cart{
+	width: 1rem;
+	height: 1rem;
+	background: url(images/cart.png) no-repeat ;
+	background-size: 100%;
+}
+#footer  ul li a .my{
+	width: 1rem;
+	height: 1rem;
+	background: url(images/my.png) no-repeat;
+	background-size: 100%;
+}
+#footer  ul li a p{
+	font-size: 0.5rem;
+	
+}
+#footer ul li :hover .h{
+	background-image: url(images/home1.png);
+	
+
+}
+#footer ul li :hover .order{
+	background-image: url(images/order1.png);
+}
+#footer ul li :hover .cart{
+	background-image: url(images/cart1.png);
+}
+#footer ul li :hover .my{
+	background-image: url(images/my1.png);
+}
